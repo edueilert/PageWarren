@@ -1,0 +1,544 @@
+body {
+
+background-image: linear-gradient( to top, rgba(255, 0, 76, 0.801) 1%, aliceblue 99%);
+}
+
+/* inicio do cód */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+*{
+margin: 0 auto; 
+padding: 0;
+font-family: 'Open Sans', sans-serif;
+box-sizing: border-box;
+text-decoration:none;
+
+}
+
+body{
+background-color: aliceblue;
+
+}
+
+/* menu */
+
+#menu-h{
+
+list-style:none;
+float:left;
+padding: 0.5% 4%;
+line-height: 70px;
+background-color: aliceblue;
+max-width: 1500x;
+
+}
+
+#menu-h li{
+position:relative;
+float:left;
+display: inline;
+
+}
+
+#menu-h li a{
+color:rgba(255, 0, 76, 0.801); 
+text-decoration:none; 
+padding:5px 69.9px;
+display:block;
+float:left;
+
+}
+
+#menu-h li a:hover{
+background:rgba(238, 255, 0, 0.801);
+color:rgba(255, 0, 76, 0.801);
+width: 100%;
+
+}
+
+#menu-h li  ul{
+position:absolute;
+top:70px;
+left: 0px;
+background-color:aliceblue;
+display:none;
+}
+
+#menu-h li:hover ul, #menu-h li.over ul{display:block;}
+
+#menu-h li ul li{
+border:1px solid rgba(255, 0, 76, 0.801); 
+display:block;
+width:200px;
+left: 0px;
+}
+
+
+
+.botão {
+    
+    position: absolute;
+    text-decoration:none;
+    left: 1177px;
+    padding: 1.75% 2%;
+    float: right;
+    list-style: none;
+    text-align: center;
+    line-height: 200px;
+    display: block;    
+    background: aliceblue;
+
+}
+
+.botão li a{
+    padding: 20px 40px;
+    text-align: center;
+    line-height: 10px;
+    float: right;
+    background:rgba(114, 84, 93, 0.801);
+    color:aliceblue;
+    border-radius: 10px/20px;
+    top: 290px;
+    left: 600px;
+    
+}
+
+    .botão li a:hover{
+        background:rgba(238, 255, 0, 0.801);
+        color:rgba(255, 0, 76, 0.801);
+        width: 100%;
+
+}
+
+/* banner */ 
+
+#banner{
+    display: inline-block;
+    width: 700px;
+    top: 145px;
+    right: 200px;
+    
+  }
+
+
+  .titulo {
+    position: absolute;
+    top: 360px;
+    left: 500px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+
+  }
+
+  .subtitulo {
+    position: absolute;
+    top: 260px;
+    left: 550px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+
+  }
+
+  .botãobanner {
+
+    position: absolute;
+    text-decoration:none;
+    top: 290px;
+    left: 582px;
+    list-style: none;
+    text-align: center;
+    line-height: 200px;
+    display: block;
+    padding: 1.75% 1.18%;
+    float: right;
+    border: 80px;
+
+  }
+
+  .botãobanner li a{
+
+    padding: 20px 40px;
+    text-align: center;
+    line-height: 10px;
+    float: right;
+    background:rgba(114, 84, 93, 0.801);
+    color:aliceblue;
+    border-radius: 10px/20px;
+
+  }
+
+  .botãobanner li a:hover{
+    background:rgba(238, 255, 0, 0.801);
+    color:rgba(255, 0, 76, 0.801);
+    width: 100%;
+  }
+
+  /* destaques */
+  .valores {
+
+    position: absolute;
+    top: 950px;
+    left: 300px;
+    font-size: 30px;
+    border-color: rgba(0, 0, 0, 0.801);
+    margin: 10px;
+    padding: 10px 200px;
+    background:rgba(255, 0, 76, 0.801);
+    border-radius: 10px/20px;
+    color: aliceblue;
+
+  }
+
+
+.dalailama {
+
+    position: absolute;
+    top: 1050px;
+    left: 40px;
+    font-size: 30px;
+    
+    
+ }
+
+.titulodalai {
+
+    position: absolute;
+    top: 1050px;
+    left: 560px;
+    font-size: 30px;
+    color: rgba(255, 0, 76, 0.801);
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+    
+}
+
+.botãodalai {
+
+    position: absolute;
+    text-decoration:none;
+    top: 1250px;
+    left: 560px;
+    list-style: none;
+    text-align: center;
+    line-height: 200px;
+    display: block;
+    padding: 1.75% 1.18%;
+    float: right;
+    border: 80px;
+
+}
+
+.botãodalai li a{
+
+    padding: 20px 40px;
+    text-align: center;
+    line-height: 10px;
+    float: right;
+    background:rgba(114, 84, 93, 0.801);
+    color:aliceblue;
+    border-radius: 10px/20px;
+
+  }
+
+  .botãodalai li a:hover{
+    background:rgba(238, 255, 0, 0.801);
+    color:rgba(255, 0, 76, 0.801);
+    width: 100%;
+  }
+
+
+
+  .descricaodalai {
+
+    position: absolute;
+    top: 1100px;
+    left: 560px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);  
+
+  }
+  
+  .marywells {
+
+    position: absolute;
+    top: 1500px;
+    right: 30px;
+    font-size: 30px;
+    
+ }
+
+.titulomary {
+
+    position: absolute;
+    top: 1500px;
+    right: 550px;
+    font-size: 30px;
+    color: rgba(255, 0, 76, 0.801);
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+
+}
+
+.botãomary {
+
+  position: absolute;
+  text-decoration:none;
+  top: 1800px;
+  left: 560px;
+  list-style: none;
+  text-align: center;
+  line-height: 200px;
+  display: block;
+  padding: 1.75% 1.18%;
+  float: right;
+  border: 80px;
+
+}
+
+.botãomary li a{
+
+  padding: 20px 40px;
+  text-align: center;
+  line-height: 10px;
+  float: right;
+  background:rgba(114, 84, 93, 0.801);
+  color:aliceblue;
+  border-radius: 10px/20px;
+
+}
+
+.botãomary li a:hover{
+  background:rgba(238, 255, 0, 0.801);
+  color:rgba(255, 0, 76, 0.801);
+  width: 100%;
+}
+
+  .descricaomary {
+
+    position: absolute;
+    top: 1550px;
+    left: 40px;
+    right: 530px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);  
+
+  }
+
+
+  .destaquetitulo {
+
+    position: absolute;
+    top: 2050px;
+    left: 50px;
+    font-size: 40px;
+    border-color: rgba(0, 0, 0, 0.801);
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    
+  }
+
+  .destaquesubtitulo {
+    position: absolute;
+    top: 2100px;
+    left: 50px;
+    font-size: 16px;
+    border-color: rgba(0, 0, 0, 0.801);
+    margin: 10px;
+    color: rgb(255, 255, 255);
+
+  }
+
+  .botãodestaque {
+
+    position: absolute;
+    text-decoration:none;
+    top: 2050px;
+    left: 950px;
+    list-style: none;
+    text-align: center;
+    line-height: 200px;
+    display: block;
+    padding: 1.75% 1.18%;
+    float: right;
+    border: 80px;
+  
+  }
+  
+  .botãodestaque li a{
+  
+    padding: 20px 40px;
+    text-align: center;
+    line-height: 10px;
+    float: right;
+    background:rgba(114, 84, 93, 0.801);
+    color:aliceblue;
+    border-radius: 10px/20px;
+  
+  }
+  
+  .botãodestaque li a:hover{
+    background:rgba(238, 255, 0, 0.801);
+    color:rgba(255, 0, 76, 0.801);
+    width: 100%;
+  }
+  
+  .destaque {
+
+    position: absolute;
+    padding: 100px 665px;
+    top: 2000px;
+    left: 10px;
+    background: rgba(255, 0, 76, 0.801);
+    border-radius: 10px/20px;
+    }
+
+    .pezinho {
+      position: absolute;
+      top: 2250px;
+      background-color: rgb(68, 68, 80);
+      color: aliceblue;
+      width: 100%;
+      height: 400px;    
+      line-height: 35px;
+    }
+
+    .TSobre{
+
+      position: absolute;
+      left: 360px;
+      top: 20px;
+      font-size: 33px;
+     
+      
+    }
+
+    .TSobre a{
+
+      color: rgb(255, 255, 255);
+      text-shadow: 0px 0px 5px rgb(0, 0, 0); 
+       
+      }
+
+    .Sobre{
+      position: absolute;
+      left: 360px;
+      top: 100px;
+      font-size: 15px;
+      
+
+    }
+
+    .Sobre a{
+
+      text-shadow: 0px 0px 5px rgb(0, 0, 0); 
+      color: rgb(255, 255, 255);
+
+    }
+
+    .TInvestir{
+
+      position: absolute;
+      left: 540px;
+      top: 20px;
+      font-size: 33px;
+      
+
+    }
+
+    .TInvestir a{
+
+      text-shadow: 0px 0px 5px rgb(0, 0, 0); 
+      color: rgb(255, 255, 255);
+
+    }
+
+    .Investir{
+      position: absolute;
+      left: 540px;
+      top: 100px;
+      font-size: 15px;
+      
+    }
+
+    .Investir a{
+
+      text-shadow: 0px 0px 5px rgb(0, 0, 0); 
+      color: rgb(255, 255, 255);
+
+    }
+
+    .TAprender{
+
+      position: absolute;
+      text-decoration: none;
+      list-style: none;
+      left: 720px;
+      top: 20px;
+      font-size: 33px;
+      
+      text-decoration:none;
+      display: block;
+      float: right;
+      border: 80px;
+
+    }
+
+    .TAprender a{
+
+      text-shadow: 0px 0px 5px rgb(0, 0, 0); 
+      color: rgb(255, 255, 255);
+      
+    }
+
+    .Aprender{
+
+      position: absolute;
+      left: 720px;
+      top: 100px;
+      font-size: 15px;
+      
+    }
+
+    .Aprender a{
+
+      text-shadow: 0px 0px 5px rgb(0, 0, 0); 
+      color: rgb(255, 255, 255);
+
+    }
+
+    .TFaleConosco{
+
+      position: absolute;
+      left: 900px;
+      top: 20px;
+      font-size: 33px;
+      
+    }
+
+    .TFaleConosco a{
+
+      text-shadow: 0px 0px 5px rgb(0, 0, 0); 
+      color: rgb(255, 255, 255);
+
+    }
+
+    .FaleConosco{
+
+      position: absolute;
+      left: 900px;
+      top: 100px;
+      font-size: 15px;
+      
+    }
+
+    .FaleConosco a{
+
+      text-shadow: 0px 0px 5px rgb(0, 0, 0); 
+      color: rgb(255, 255, 255);
+
+    }
+
+  
